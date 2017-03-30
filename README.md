@@ -1,5 +1,8 @@
 # AutoMapperPostBuilder
 Automatically validate your AutoMapper mapping after each build
+
+[![Build status](https://ci.appveyor.com/api/projects/status/lmo8ou8d1m9ih4k9?svg=true)](https://ci.appveyor.com/project/cvanbergen/automapperpostbuilder)
+
 ### Introduction
 If you write mapping or translation code for setting properties from one object to another, you have probably used [AutoMapper](http://automapper.org) by [Jimmy Bogard](https://github.com/jbogard). AutoMapper is a simple little library built to solve a deceptively complex problem. One downside is, often you will find out during runtime that you missed one or more properties in a mapping. This project will let you have feedback directly after compile whether or not your mapping is correct. You don't want to wait for the runtime exceptions (well, actually you will, but......just read on).
 
